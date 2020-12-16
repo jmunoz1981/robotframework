@@ -36,6 +36,7 @@ RUN sudo dnf install -y \
   cryptsetup-devel \
   python3-jira \
   python-pip \
+  c-ares \
   && sudo dnf clean all \
   && pip install robotframework
 
